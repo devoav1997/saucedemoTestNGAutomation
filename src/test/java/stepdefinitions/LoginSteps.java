@@ -46,4 +46,13 @@ public class LoginSteps {
         WebDriverSetup.closeDriver();
     }
 
+    @Then("an error message {string} should be displayed")
+    public void errorMessageShouldBeDisplayed(String expectedMessage) throws InterruptedException{
+        String actualMessage = loginPage.getErrorMessage();
+        Assert.assertEquals(actualMessage, expectedMessage, "Error message mismatch!");
+        Thread.sleep(3000); // 5 detik delay
+        WebDriverSetup.closeDriver();
+    }
+
+
 }
