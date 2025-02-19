@@ -1,0 +1,49 @@
+package stepdefinitions;
+
+import io.cucumber.java.en.*;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pages.HomePage;
+import pages.LoginPage;
+import utils.WebDriverSetup;
+import org.testng.Assert;
+
+public class LoginSteps {
+
+    WebDriver driver = WebDriverSetup.getDriver();
+    LoginPage loginPage = new LoginPage(driver);
+    HomePage homePage = new HomePage(driver);
+
+    @Given("the user is on the login page")
+    public void userIsOnLoginPage() {
+        driver.get("https://www.saucedemo.com/");
+    }
+
+    @When("the user enters {string} and {string}")
+    public void userEntersCredentials(String username, String password) {
+        loginPage.enterUsername(username);
+        loginPage.enterPassword(password);
+        
+    }
+
+    @When("clicks the login button")
+    public void userClicksLoginButton() {
+        loginPage.clickLogin();
+    }
+
+    @Then("the inventory page should be displayed")
+    public void inventoryPageDisplayed() throws InterruptedException {
+        Assert.assertTrue(homePage.isInventoryDisplayed());
+
+        // Delay sebelum browser tertutup
+        System.out.println("Menunggu sebelum menutup browser...");
+        Thread.sleep(5000); // 5 detik delay
+        System.out.println("Menutup browser!");
+        WebDriverSetup.closeDriver();
+    }
+
+}
