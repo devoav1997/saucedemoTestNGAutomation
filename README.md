@@ -6,7 +6,7 @@ This project demonstrates automated testing of the SauceDemo website using TestN
 - ✓ Login functionality
 - ⬜ Product catalog browsing
 - ⬜ Shopping cart operations
-- ⬜ Checkout process
+- ✓ Checkout process
 
 ## Tech Stack
 - Java
