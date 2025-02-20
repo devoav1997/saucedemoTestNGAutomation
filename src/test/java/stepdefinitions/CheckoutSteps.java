@@ -35,6 +35,11 @@ public class CheckoutSteps {
         checkoutPage.clickContinue();
     }
 
+    @When("clicks the continue button")
+    public void clicksContinueButton() {
+        checkoutPage.clickContinue();
+    }
+
     @When("completes the purchase")
     public void completesPurchase() {
         checkoutPage.complatePurchase();
@@ -46,4 +51,11 @@ public class CheckoutSteps {
         Assert.assertEquals(actualMessage, expectedMessage, "Confirmation message mismatch!");
         WebDriverSetup.closeDriver();
     }
+
+    // @Then("an error message {string} should be displayed")
+    // public void errorMessageDisplayed(String expectedMessage) {
+    //     String actualMessage = checkoutPage.getErrorMessage();
+    //     Assert.assertEquals(actualMessage, expectedMessage, "Error message mismatch!");
+    //     WebDriverSetup.closeDriver();
+    // }
 }

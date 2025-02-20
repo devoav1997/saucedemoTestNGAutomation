@@ -13,6 +13,7 @@ public class CheckoutPage {
     private By continueButton = By.xpath("//input[@id='continue']");
     private By finishButton = By.xpath("//button[text()='Finish']");
     private By confirmationMessage = By.xpath("//h2[@class='complete-header']");
+    private By errorMessage = By.xpath("//h3[@data-test='error']");
 
 
     public CheckoutPage(WebDriver driver) {
@@ -35,6 +36,10 @@ public class CheckoutPage {
 
     public String getConfirmationMessage(){
         return driver.findElement(confirmationMessage).getText();
+    }
+
+    public String getErrorMessage(){
+        return driver.findElement(errorMessage).getText();
     }
 
 
