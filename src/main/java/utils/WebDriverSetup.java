@@ -18,6 +18,11 @@ public class WebDriverSetup {
 
     public static void closeDriver() {
         if (driver != null) {
+            try {
+                Thread.sleep(2000); // Delay sebelum menutup browser
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             driver.quit();
             driver = null;
         }
