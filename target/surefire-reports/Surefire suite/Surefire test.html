@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 20 16:47:49 WIB 2025</td>
+<td>Started on:</td><td>Sat Feb 22 16:14:06 WIB 2025</td>
 </tr>
-<tr><td>Total time:</td><td>83 seconds (83350 ms)</td>
+<tr><td>Total time:</td><td>97 seconds (97888 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,43 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User views product catalog", "Product catalog browsing on SauceDemo"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@data-test=&apos;inventory-item&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61536/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f6f662a218d09eb6d9c292f44d45148
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.HomePage.isProductCatalogDisplayed(HomePage.java:55)
+	at stepdefinitions.ProductCatalogSteps.productCatalogShouldBeDisplayed(ProductCatalogSteps.java:22)
+	at ✽.the user should see the product catalog(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1121023149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1121023149'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@data-test=&apos;inventory-item&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61536/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f6f662a218d09eb6d9c292f44d45148
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.HomePage.isProductCatalogDisplayed(HomePage.java:55)
+	at stepdefinitions.ProductCatalogSteps.productCatalogShouldBeDisplayed(ProductCatalogSteps.java:22)
+	at ✽.the user should see the product catalog(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:8)
+</pre></div></td>
+<td>20</td>
+<td>runners.TestRunner@44821a96</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,32 +113,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with empty password", "Login functionality on SauceDemo"</td>
-<td></td>
-<td>6</td>
-<td>runners.TestRunner@44821a96</td></tr>
-<tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with empty username", "Login functionality on SauceDemo"</td>
-<td></td>
-<td>6</td>
-<td>runners.TestRunner@44821a96</td></tr>
-<tr>
 <td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with empty credentials", "Login functionality on SauceDemo"</td>
 <td></td>
 <td>7</td>
 <td>runners.TestRunner@44821a96</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with incorrect password", "Login functionality on SauceDemo"</td>
-<td></td>
-<td>6</td>
-<td>runners.TestRunner@44821a96</td></tr>
-<tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to checkout with empty first name", "Checkout functionality on SauceDemo"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to checkout with empty postal code", "Checkout functionality on SauceDemo"</td>
 <td></td>
 <td>7</td>
 <td>runners.TestRunner@44821a96</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with incorrect username", "Login functionality on SauceDemo"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User selects a product and completes the checkout process", "Checkout functionality on SauceDemo"</td>
 <td></td>
 <td>7</td>
 <td>runners.TestRunner@44821a96</td></tr>
@@ -111,9 +133,14 @@ function toggleAllBoxes() {
 <td>7</td>
 <td>runners.TestRunner@44821a96</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User selects a product and completes the checkout process", "Checkout functionality on SauceDemo"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with empty username", "Login functionality on SauceDemo"</td>
 <td></td>
-<td>15</td>
+<td>7</td>
+<td>runners.TestRunner@44821a96</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to checkout with empty first name", "Checkout functionality on SauceDemo"</td>
+<td></td>
+<td>7</td>
 <td>runners.TestRunner@44821a96</td></tr>
 <tr>
 <td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User successfully logs in with valid credentials", "Login functionality on SauceDemo"</td>
@@ -121,9 +148,34 @@ function toggleAllBoxes() {
 <td>8</td>
 <td>runners.TestRunner@44821a96</td></tr>
 <tr>
-<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to checkout with empty postal code", "Checkout functionality on SauceDemo"</td>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User views product details", "Product catalog browsing on SauceDemo"</td>
 <td></td>
-<td>9</td>
+<td>2</td>
+<td>runners.TestRunner@44821a96</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with incorrect password", "Login functionality on SauceDemo"</td>
+<td></td>
+<td>7</td>
+<td>runners.TestRunner@44821a96</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with empty password", "Login functionality on SauceDemo"</td>
+<td></td>
+<td>6</td>
+<td>runners.TestRunner@44821a96</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User filters products by Price (low to high)", "Product catalog browsing on SauceDemo"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@44821a96</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User fails to log in with incorrect username", "Login functionality on SauceDemo"</td>
+<td></td>
+<td>6</td>
+<td>runners.TestRunner@44821a96</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User filters products by Name (A to Z)", "Product catalog browsing on SauceDemo"</td>
+<td></td>
+<td>0</td>
 <td>runners.TestRunner@44821a96</td></tr>
 </table><p>
 </body>

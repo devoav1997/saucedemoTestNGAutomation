@@ -1,3 +1,4 @@
 runners/TestRunner.class
+stepdefinitions/ProductCatalogSteps.class
 stepdefinitions/CheckoutSteps.class
 stepdefinitions/LoginSteps.class
