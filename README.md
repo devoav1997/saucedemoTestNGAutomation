@@ -4,7 +4,7 @@ This project demonstrates automated testing of the SauceDemo website using TestN
 
 ## Features Tested
 - ✓ Login functionality
-- ⬜ Product catalog browsing
+- ✓ Product catalog browsing
 - ⬜ Shopping cart operations
 - ✓ Checkout process
 
