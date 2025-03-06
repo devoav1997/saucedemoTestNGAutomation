@@ -43,7 +43,7 @@ public class LoginSteps {
         System.out.println("Menunggu sebelum menutup browser...");
         Thread.sleep(5000); // 5 detik delay
         System.out.println("Menutup browser!");
-        WebDriverSetup.closeDriver();
+      
     }
 
     @Then("an error message {string} should be displayed")

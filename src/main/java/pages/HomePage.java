@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -50,19 +51,28 @@ public class HomePage {
     public void proceedToCheckout(){
         driver.findElement(checkoutButton).click();
     }
+   
     public boolean isProductCatalogDisplayed() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(productList));
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Menunggu hingga 10 detik
     
-        List<WebElement> products = driver.findElements(productList);
-        System.out.println("Jumlah produk ditemukan: " + products.size());
-        for (WebElement product : products) {
-            System.out.println("Nama Produk: " + product.getText());
+            // Menunggu setidaknya satu elemen inventory muncul
+            WebElement inventoryList = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='inventory_item' and @data-test='inventory-item']")));
+            
+            // Pastikan ada lebih dari satu produk di katalog
+            int productCount = driver.findElements(By.xpath("//div[@class='inventory_item' and @data-test='inventory-item']")).size();
+    
+            if (inventoryList.isDisplayed() && productCount > 0) {
+                System.out.println("Product catalog is displayed with " + productCount + " items.");
+                return true;
+            }
+        } catch (Exception e) {
+            System.out.println("Product catalog is not displayed: " + e.getMessage());
         }
-
-        // Gunakan Assert untuk verifikasi
-        return products.size() > 0;
+        return false;
     }
+    
+    
     
 
     public void selectFilterOption(String filterOption){

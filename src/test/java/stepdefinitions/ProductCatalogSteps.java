@@ -20,6 +20,7 @@ public class ProductCatalogSteps {
     @Then("the user should see the product catalog")
     public void productCatalogShouldBeDisplayed() {
         Assert.assertTrue(homePage.isProductCatalogDisplayed(), "Product catalog is not displayed");
+        WebDriverSetup.closeDriver();
     }
 
     @When("the user selects filter option {string}")
@@ -38,6 +39,7 @@ public class ProductCatalogSteps {
             List<Double> sortedPrices = productPrices.stream().sorted().collect(Collectors.toList());
             Assert.assertEquals(productPrices, sortedPrices, "Products are not sorted by Price (low to high)");
         }
+        WebDriverSetup.closeDriver();
     }
 
     @When("the user clicks on product {string}")

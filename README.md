@@ -5,7 +5,7 @@ This project demonstrates automated testing of the SauceDemo website using TestN
 ## Features Tested
 - ✓ Login functionality
 - ✓ Product catalog browsing
-- ⬜ Shopping cart operations
+- ✓ Shopping cart operations
 - ✓ Checkout process
 
 ## Tech Stack
@@ -17,4 +17,4 @@ This project demonstrates automated testing of the SauceDemo website using TestN
 ## Setup
 1. Clone the repository
 2. Install dependencies using Maven
-3. Run tests using TestNG
+3. Run tests using TestNG : mvn clean install 

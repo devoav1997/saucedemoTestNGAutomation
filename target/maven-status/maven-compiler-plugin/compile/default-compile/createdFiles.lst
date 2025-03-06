@@ -1,3 +1,4 @@
+pages/CartPage.class
 pages/CheckoutPage.class
 utils/WebDriverSetup.class
 pages/LoginPage.class
