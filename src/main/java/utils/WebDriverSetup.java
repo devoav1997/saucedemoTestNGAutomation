@@ -2,7 +2,6 @@ package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -26,27 +25,13 @@ public class WebDriverSetup {
     //     return driver;
     // }
 
-//     public static WebDriver getDriver() {
-//     if (driver == null) {
-//         WebDriverManager.chromedriver().setup();
-//         driver = new ChromeDriver();
-//         driver.manage().window().maximize();
-//         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//     }
-//     return driver;
-// }
-
-public static ChromeDriver getDriver() {
-    ChromeOptions options = new ChromeOptions();
-    options.addArguments("--remote-allow-origins=*");
-    String userDataDir = System.getProperty("java.io.tmpdir") + "/chrome-user-data-" + UUID.randomUUID();
-    options.addArguments("--user-data-dir=" + userDataDir);
-    options.addArguments("--no-sandbox");
-    options.addArguments("--disable-dev-shm-usage");
-    options.addArguments("--headless");
-
-    ChromeDriver driver = new ChromeDriver(options);
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // Tambahkan baris ini
+    public static WebDriver getDriver() {
+    if (driver == null) {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
     return driver;
 }
 

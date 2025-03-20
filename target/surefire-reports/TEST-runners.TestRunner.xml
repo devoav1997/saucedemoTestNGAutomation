@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="232.353" tests="17" errors="0" skipped="0" failures="11">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="175.316" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="/Users/devo/.cache/selenium/chromedriver/mac-arm64/134.0.6998.90/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/test-classes:/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/classes:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.1/selenium-java-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.1/selenium-api-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.1/selenium-chrome-driver-4.12.1.jar:/Users/devo/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/devo/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/devo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/devo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/devo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/devo/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/devo/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/devo/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.1/selenium-chromium-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.1/selenium-json-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.1/selenium-manager-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.1/selenium-devtools-v114-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.1/selenium-devtools-v115-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.1/selenium-devtools-v116-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.1/selenium-devtools-v85-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.1/selenium-edge-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.1/selenium-firefox-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.1/selenium-http-4.12.1.jar:/Users/devo/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.1/selenium-ie-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.1/selenium-remote-driver-4.12.1.jar:/Users/devo/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/devo/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/devo/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/devo/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/devo/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/devo/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.1/selenium-os-4.12.1.jar:/Users/devo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.1/selenium-safari-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.1/selenium-support-4.12.1.jar:/Users/devo/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/devo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/devo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/devo/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/devo/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/devo/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/devo/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/devo/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/devo/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/devo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/devo/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/devo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/devo/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/devo/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/devo/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/devo/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/devo/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/devo/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/devo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
@@ -13,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250320114326647_3.jar /Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire 2025-03-20T11-43-26_583-jvmRun1 surefire-20250320114326647_1tmp surefire_0-20250320114326647_2tmp"/>
+    <property name="sun.java.command" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250320120226935_3.jar /Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire 2025-03-20T12-02-26_876-jvmRun1 surefire-20250320120226935_1tmp surefire_0-20250320120226935_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/test-classes:/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/classes:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.1/selenium-java-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.1/selenium-api-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.1/selenium-chrome-driver-4.12.1.jar:/Users/devo/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/devo/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/devo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/devo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/devo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/devo/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/devo/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/devo/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.1/selenium-chromium-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.1/selenium-json-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.1/selenium-manager-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.1/selenium-devtools-v114-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.1/selenium-devtools-v115-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.1/selenium-devtools-v116-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.1/selenium-devtools-v85-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.1/selenium-edge-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.1/selenium-firefox-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.1/selenium-http-4.12.1.jar:/Users/devo/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.1/selenium-ie-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.1/selenium-remote-driver-4.12.1.jar:/Users/devo/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/devo/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/devo/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/devo/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/devo/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/devo/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.1/selenium-os-4.12.1.jar:/Users/devo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.1/selenium-safari-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.1/selenium-support-4.12.1.jar:/Users/devo/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/devo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/devo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/devo/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/devo/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/devo/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/devo/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/devo/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/devo/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/devo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/devo/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/devo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/devo/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/devo/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/devo/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/devo/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/devo/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/devo/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/devo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
@@ -29,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250320114326647_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250320120226935_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.7+7"/>
@@ -56,72 +57,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;User selects a product and completes the checkout process&quot;, &quot;Checkout functionality on SauceDemo&quot;](1)" classname="runners.TestRunner" time="16.566">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5aeb835e69a11978ae898763d893aed3, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55450/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5aeb835e69a11978ae898763d893aed3" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5aeb835e69a11978ae898763d893aed3, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55450/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5aeb835e69a11978ae898763d893aed3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:7)
-]]></failure>
+  <testcase name="runScenario[&quot;User selects a product and completes the checkout process&quot;, &quot;Checkout functionality on SauceDemo&quot;](1)" classname="runners.TestRunner" time="11.117">
     <system-out><![CDATA[
 Scenario: User selects a product and completes the checkout process           # src/test/java/features/checkout.feature:3
   Given the user is on the login page                                         # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce"                     # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                                                 # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"                        # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5aeb835e69a11978ae898763d893aed3, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55450/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5aeb835e69a11978ae898763d893aed3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:7)
-
   And adds the product to the cart                                            # stepdefinitions.CheckoutSteps.addsProductToCart()
   And proceeds to checkout                                                    # stepdefinitions.CheckoutSteps.proceedsToCheckout()
   And fills in the checkout information with "John" "Doe" "12345"             # stepdefinitions.CheckoutSteps.fillsInCheckoutInformation(java.lang.String,java.lang.String,java.lang.String)
@@ -131,279 +73,70 @@ Session ID: 5aeb835e69a11978ae898763d893aed3
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 20, 2025 11:43:28 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:43:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 20, 2025 12:02:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:43:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:43:32 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:43:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:43:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:02:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to checkout with empty first name&quot;, &quot;Checkout functionality on SauceDemo&quot;](2)" classname="runners.TestRunner" time="14.456">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [09d0bb3e0325b8dbaa05353269f95803, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 09d0bb3e0325b8dbaa05353269f95803" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [09d0bb3e0325b8dbaa05353269f95803, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 09d0bb3e0325b8dbaa05353269f95803
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:19)
-]]></failure>
+  <testcase name="runScenario[&quot;User fails to checkout with empty first name&quot;, &quot;Checkout functionality on SauceDemo&quot;](2)" classname="runners.TestRunner" time="10.83">
     <system-out><![CDATA[
 Scenario: User fails to checkout with empty first name                      # src/test/java/features/checkout.feature:15
   Given the user is on the login page                                       # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce"                   # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                                               # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"                      # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [09d0bb3e0325b8dbaa05353269f95803, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 09d0bb3e0325b8dbaa05353269f95803
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:19)
-
   And adds the product to the cart                                          # stepdefinitions.CheckoutSteps.addsProductToCart()
   And proceeds to checkout                                                  # stepdefinitions.CheckoutSteps.proceedsToCheckout()
   And fills in the checkout information with "" "Doe" "12345"               # stepdefinitions.CheckoutSteps.fillsInCheckoutInformation(java.lang.String,java.lang.String,java.lang.String)
   And clicks the continue button                                            # stepdefinitions.CheckoutSteps.clicksContinueButton()
   Then an error message "Error: First Name is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:43:44 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:43:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:02:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:43:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:43:46 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:43:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:43:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:02:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to checkout with empty last name&quot;, &quot;Checkout functionality on SauceDemo&quot;](3)" classname="runners.TestRunner" time="14.687">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2cfd1e5e303f4c6308640915ab94ef61, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55574/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2cfd1e5e303f4c6308640915ab94ef61" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2cfd1e5e303f4c6308640915ab94ef61, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55574/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cfd1e5e303f4c6308640915ab94ef61
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:30)
-]]></failure>
+  <testcase name="runScenario[&quot;User fails to checkout with empty last name&quot;, &quot;Checkout functionality on SauceDemo&quot;](3)" classname="runners.TestRunner" time="10.772">
     <system-out><![CDATA[
 Scenario: User fails to checkout with empty last name                      # src/test/java/features/checkout.feature:26
   Given the user is on the login page                                      # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce"                  # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                                              # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"                     # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2cfd1e5e303f4c6308640915ab94ef61, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55574/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cfd1e5e303f4c6308640915ab94ef61
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:30)
-
   And adds the product to the cart                                         # stepdefinitions.CheckoutSteps.addsProductToCart()
   And proceeds to checkout                                                 # stepdefinitions.CheckoutSteps.proceedsToCheckout()
   And fills in the checkout information with "John" "" "12345"             # stepdefinitions.CheckoutSteps.fillsInCheckoutInformation(java.lang.String,java.lang.String,java.lang.String)
   And clicks the continue button                                           # stepdefinitions.CheckoutSteps.clicksContinueButton()
   Then an error message "Error: Last Name is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:43:58 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:02:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:44:01 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:02:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to checkout with empty postal code&quot;, &quot;Checkout functionality on SauceDemo&quot;](4)" classname="runners.TestRunner" time="14.603">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [cfd05145d47c8faf20d0c4c7302322c2, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55642/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cfd05145d47c8faf20d0c4c7302322c2" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cfd05145d47c8faf20d0c4c7302322c2, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55642/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cfd05145d47c8faf20d0c4c7302322c2
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:41)
-]]></failure>
+  <testcase name="runScenario[&quot;User fails to checkout with empty postal code&quot;, &quot;Checkout functionality on SauceDemo&quot;](4)" classname="runners.TestRunner" time="10.634">
     <system-out><![CDATA[
 Scenario: User fails to checkout with empty postal code                      # src/test/java/features/checkout.feature:37
   Given the user is on the login page                                        # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce"                    # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                                                # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"                       # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cfd05145d47c8faf20d0c4c7302322c2, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55642/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cfd05145d47c8faf20d0c4c7302322c2
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/checkout.feature:41)
-
   And adds the product to the cart                                           # stepdefinitions.CheckoutSteps.addsProductToCart()
   And proceeds to checkout                                                   # stepdefinitions.CheckoutSteps.proceedsToCheckout()
   And fills in the checkout information with "John" "Doe" ""                 # stepdefinitions.CheckoutSteps.fillsInCheckoutInformation(java.lang.String,java.lang.String,java.lang.String)
   And clicks the continue button                                             # stepdefinitions.CheckoutSteps.clicksContinueButton()
   Then an error message "Error: Postal Code is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:13 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:03:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:44:16 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:03:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User successfully logs in with valid credentials&quot;, &quot;Login functionality on SauceDemo&quot;](5)" classname="runners.TestRunner" time="7.783">
+  <testcase name="runScenario[&quot;User successfully logs in with valid credentials&quot;, &quot;Login functionality on SauceDemo&quot;](5)" classname="runners.TestRunner" time="7.082">
     <system-out><![CDATA[
 Scenario: User successfully logs in with valid credentials # src/test/java/features/login.feature:3
   Given the user is on the login page                      # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -413,15 +146,13 @@ Menunggu sebelum menutup browser...
 Menutup browser!
   Then the inventory page should be displayed              # stepdefinitions.LoginSteps.inventoryPageDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:28 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:03:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:03:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with incorrect username&quot;, &quot;Login functionality on SauceDemo&quot;](6)" classname="runners.TestRunner" time="5.435">
+  <testcase name="runScenario[&quot;User fails to log in with incorrect username&quot;, &quot;Login functionality on SauceDemo&quot;](6)" classname="runners.TestRunner" time="8.493">
     <system-out><![CDATA[
 Scenario: User fails to log in with incorrect username                                                                  # src/test/java/features/login.feature:9
   Given the user is on the login page                                                                                   # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -429,15 +160,8 @@ Scenario: User fails to log in with incorrect username                          
   And clicks the login button                                                                                           # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username and password do not match any user in this service" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:35 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with incorrect password&quot;, &quot;Login functionality on SauceDemo&quot;](7)" classname="runners.TestRunner" time="5.398">
+  <testcase name="runScenario[&quot;User fails to log in with incorrect password&quot;, &quot;Login functionality on SauceDemo&quot;](7)" classname="runners.TestRunner" time="10.239">
     <system-out><![CDATA[
 Scenario: User fails to log in with incorrect password                                                                  # src/test/java/features/login.feature:15
   Given the user is on the login page                                                                                   # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -445,15 +169,13 @@ Scenario: User fails to log in with incorrect password                          
   And clicks the login button                                                                                           # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username and password do not match any user in this service" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:41 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:03:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:03:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with empty credentials&quot;, &quot;Login functionality on SauceDemo&quot;](8)" classname="runners.TestRunner" time="5.527">
+  <testcase name="runScenario[&quot;User fails to log in with empty credentials&quot;, &quot;Login functionality on SauceDemo&quot;](8)" classname="runners.TestRunner" time="10.037">
     <system-out><![CDATA[
 Scenario: User fails to log in with empty credentials                            # src/test/java/features/login.feature:21
   Given the user is on the login page                                            # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -461,15 +183,13 @@ Scenario: User fails to log in with empty credentials                           
   And clicks the login button                                                    # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:46 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:03:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:03:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with empty password&quot;, &quot;Login functionality on SauceDemo&quot;](9)" classname="runners.TestRunner" time="5.98">
+  <testcase name="runScenario[&quot;User fails to log in with empty password&quot;, &quot;Login functionality on SauceDemo&quot;](9)" classname="runners.TestRunner" time="9.937">
     <system-out><![CDATA[
 Scenario: User fails to log in with empty password                               # src/test/java/features/login.feature:27
   Given the user is on the login page                                            # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -477,15 +197,13 @@ Scenario: User fails to log in with empty password                              
   And clicks the login button                                                    # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Password is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:52 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:03:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:03:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with empty username&quot;, &quot;Login functionality on SauceDemo&quot;](10)" classname="runners.TestRunner" time="6.043">
+  <testcase name="runScenario[&quot;User fails to log in with empty username&quot;, &quot;Login functionality on SauceDemo&quot;](10)" classname="runners.TestRunner" time="10.153">
     <system-out><![CDATA[
 Scenario: User fails to log in with empty username                               # src/test/java/features/login.feature:33
   Given the user is on the login page                                            # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -493,22 +211,13 @@ Scenario: User fails to log in with empty username                              
   And clicks the login button                                                    # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:44:58 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:44:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:03:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:44:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:03:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User views product catalog&quot;, &quot;Product catalog browsing on SauceDemo&quot;](11)" classname="runners.TestRunner" time="19.387">
-    <failure message="Product catalog is not displayed expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Product catalog is not displayed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.ProductCatalogSteps.productCatalogShouldBeDisplayed(ProductCatalogSteps.java:22)
-	at ✽.the user should see the product catalog(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:8)
-]]></failure>
+  <testcase name="runScenario[&quot;User views product catalog&quot;, &quot;Product catalog browsing on SauceDemo&quot;](11)" classname="runners.TestRunner" time="12.168">
     <system-out><![CDATA[
 Scenario: User views product catalog                      # src/test/java/features/product-catalog.feature:3
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -517,530 +226,108 @@ Scenario: User views product catalog                      # src/test/java/featur
 Menunggu sebelum menutup browser...
 Menutup browser!
   Then the inventory page should be displayed             # stepdefinitions.LoginSteps.inventoryPageDisplayed()
-Product catalog is not displayed: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='inventory_item' and @data-test='inventory-item'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55927}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55927/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1823fab4cccdd6725b732667e89c4d79
+Product catalog is displayed with 6 items.
   And the user should see the product catalog             # stepdefinitions.ProductCatalogSteps.productCatalogShouldBeDisplayed()
-      java.lang.AssertionError: Product catalog is not displayed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at stepdefinitions.ProductCatalogSteps.productCatalogShouldBeDisplayed(ProductCatalogSteps.java:22)
-	at ✽.the user should see the product catalog(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:8)
-
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:45:04 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:04:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:45:11 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:04:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User filters products by Name (A to Z)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](12)" classname="runners.TestRunner" time="15.736">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@class=&apos;product_sort_container&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0e8e04e60823dd2abf92a9a96a5a7ce1, findElement {using=xpath, value=//select[@class=&apos;product_sort_container&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55994/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0e8e04e60823dd2abf92a9a96a5a7ce1" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='product_sort_container']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e8e04e60823dd2abf92a9a96a5a7ce1, findElement {using=xpath, value=//select[@class='product_sort_container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55994/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e8e04e60823dd2abf92a9a96a5a7ce1
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectFilterOption(HomePage.java:79)
-	at stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(ProductCatalogSteps.java:28)
-	at ✽.the user selects filter option "Name (A to Z)"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:14)
-]]></failure>
+  <testcase name="runScenario[&quot;User filters products by Name (A to Z)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](12)" classname="runners.TestRunner" time="17.189">
     <system-out><![CDATA[
 Scenario: User filters products by Name (A to Z)          # src/test/java/features/product-catalog.feature:10
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce" # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                             # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects filter option "Name (A to Z)"      # stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='product_sort_container']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e8e04e60823dd2abf92a9a96a5a7ce1, findElement {using=xpath, value=//select[@class='product_sort_container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55994}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55994/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e8e04e60823dd2abf92a9a96a5a7ce1
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectFilterOption(HomePage.java:79)
-	at stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(ProductCatalogSteps.java:28)
-	at ✽.the user selects filter option "Name (A to Z)"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:14)
-
   Then the products should be sorted by "Name (A to Z)"   # stepdefinitions.ProductCatalogSteps.productsShouldBeSorted(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:45:23 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:04:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:45:27 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:04:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User filters products by Price (low to high)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](13)" classname="runners.TestRunner" time="14.971">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@class=&apos;product_sort_container&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [467295fca5301b9edc2be155f2ace96a, findElement {using=xpath, value=//select[@class=&apos;product_sort_container&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56064/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 467295fca5301b9edc2be155f2ace96a" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='product_sort_container']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [467295fca5301b9edc2be155f2ace96a, findElement {using=xpath, value=//select[@class='product_sort_container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56064/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 467295fca5301b9edc2be155f2ace96a
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectFilterOption(HomePage.java:79)
-	at stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(ProductCatalogSteps.java:28)
-	at ✽.the user selects filter option "Price (low to high)"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:21)
-]]></failure>
+  <testcase name="runScenario[&quot;User filters products by Price (low to high)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](13)" classname="runners.TestRunner" time="7.157">
     <system-out><![CDATA[
 Scenario: User filters products by Price (low to high)        # src/test/java/features/product-catalog.feature:17
   Given the user is on the login page                         # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce"     # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                                 # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects filter option "Price (low to high)"    # stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@class='product_sort_container']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [467295fca5301b9edc2be155f2ace96a, findElement {using=xpath, value=//select[@class='product_sort_container']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56064/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 467295fca5301b9edc2be155f2ace96a
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectFilterOption(HomePage.java:79)
-	at stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(ProductCatalogSteps.java:28)
-	at ✽.the user selects filter option "Price (low to high)"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:21)
-
   Then the products should be sorted by "Price (low to high)" # stepdefinitions.ProductCatalogSteps.productsShouldBeSorted(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:45:39 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:04:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:45:41 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:04:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User views product details&quot;, &quot;Product catalog browsing on SauceDemo&quot;](14)" classname="runners.TestRunner" time="15.445">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c68fd2eb9c4e24c8ece1bdfe89be073e, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56116/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c68fd2eb9c4e24c8ece1bdfe89be073e" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c68fd2eb9c4e24c8ece1bdfe89be073e, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56116/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c68fd2eb9c4e24c8ece1bdfe89be073e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.clickOnProduct(HomePage.java:98)
-	at stepdefinitions.ProductCatalogSteps.userClicksOnProduct(ProductCatalogSteps.java:47)
-	at ✽.the user clicks on product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:28)
-]]></failure>
+  <testcase name="runScenario[&quot;User views product details&quot;, &quot;Product catalog browsing on SauceDemo&quot;](14)" classname="runners.TestRunner" time="7.215">
     <system-out><![CDATA[
 Scenario: User views product details                                                       # src/test/java/features/product-catalog.feature:24
   Given the user is on the login page                                                      # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce"                                  # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                                                              # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user clicks on product "Sauce Labs Backpack"                                     # stepdefinitions.ProductCatalogSteps.userClicksOnProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c68fd2eb9c4e24c8ece1bdfe89be073e, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56116}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56116/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c68fd2eb9c4e24c8ece1bdfe89be073e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.clickOnProduct(HomePage.java:98)
-	at stepdefinitions.ProductCatalogSteps.userClicksOnProduct(ProductCatalogSteps.java:47)
-	at ✽.the user clicks on product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/product-catalog.feature:28)
-
   Then the product detail page should be displayed with product name "Sauce Labs Backpack" # stepdefinitions.ProductCatalogSteps.productDetailPageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:45:54 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:04:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:45:57 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:45:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:45:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:04:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User adds a product to the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](15)" classname="runners.TestRunner" time="16.051">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3f89cc0a5b5a308f4091a72699e627cf, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56184/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f89cc0a5b5a308f4091a72699e627cf" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f89cc0a5b5a308f4091a72699e627cf, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56184/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f89cc0a5b5a308f4091a72699e627cf
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/shopping-cart.feature:7)
-]]></failure>
+  <testcase name="runScenario[&quot;User adds a product to the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](15)" classname="runners.TestRunner" time="7.15">
     <system-out><![CDATA[
 Scenario: User adds a product to the cart                 # src/test/java/features/shopping-cart.feature:3
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce" # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                             # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"    # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f89cc0a5b5a308f4091a72699e627cf, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56184/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f89cc0a5b5a308f4091a72699e627cf
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/shopping-cart.feature:7)
-
   And adds the product to the cart                        # stepdefinitions.CheckoutSteps.addsProductToCart()
   Then the cart icon should show "1"                      # stepdefinitions.ShoppingCartSteps.cartIconShouldShow(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:46:09 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:46:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:04:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:46:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:46:13 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:46:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:46:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:04:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User views the shopping cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](16)" classname="runners.TestRunner" time="21.079">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [db3103b9e332720a5aa82d03621e0264, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56259/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: db3103b9e332720a5aa82d03621e0264" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db3103b9e332720a5aa82d03621e0264, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56259/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db3103b9e332720a5aa82d03621e0264
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/shopping-cart.feature:15)
-]]></failure>
+  <testcase name="runScenario[&quot;User views the shopping cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](16)" classname="runners.TestRunner" time="7.149">
     <system-out><![CDATA[
 Scenario: User views the shopping cart                    # src/test/java/features/shopping-cart.feature:11
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce" # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                             # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"    # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db3103b9e332720a5aa82d03621e0264, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56259/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db3103b9e332720a5aa82d03621e0264
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/shopping-cart.feature:15)
-
   And adds the product to the cart                        # stepdefinitions.CheckoutSteps.addsProductToCart()
   And the user opens the cart                             # stepdefinitions.ShoppingCartSteps.userOpensCart()
   Then the cart should contain "Sauce Labs Backpack"      # stepdefinitions.ShoppingCartSteps.cartShouldContain(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:46:26 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:46:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:04:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:46:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:46:34 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:46:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:46:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:04:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User removes a product from the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](17)" classname="runners.TestRunner" time="31.649">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]&quot;}&#10;  (Session info: chrome=134.0.6998.118)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.2&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5a6b4e89cf2576205ebf8d2cec25ae61, findElement {using=xpath, value=//div[@data-test=&apos;inventory-item-name&apos; and text()=&apos;Sauce Labs Backpack&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56341/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5a6b4e89cf2576205ebf8d2cec25ae61" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a6b4e89cf2576205ebf8d2cec25ae61, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56341/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a6b4e89cf2576205ebf8d2cec25ae61
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/shopping-cart.feature:24)
-]]></failure>
+  <testcase name="runScenario[&quot;User removes a product from the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](17)" classname="runners.TestRunner" time="17.213">
     <system-out><![CDATA[
 Scenario: User removes a product from the cart            # src/test/java/features/shopping-cart.feature:20
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
   When the user enters "standard_user" and "secret_sauce" # stepdefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)
   And clicks the login button                             # stepdefinitions.LoginSteps.userClicksLoginButton()
   And the user selects a product "Sauce Labs Backpack"    # stepdefinitions.CheckoutSteps.userSelectsProduct(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a6b4e89cf2576205ebf8d2cec25ae61, findElement {using=xpath, value=//div[@data-test='inventory-item-name' and text()='Sauce Labs Backpack']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: /var/folders/9n/qdd87m_d27v...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56341/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a6b4e89cf2576205ebf8d2cec25ae61
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at pages.HomePage.selectProduct(HomePage.java:39)
-	at stepdefinitions.CheckoutSteps.userSelectsProduct(CheckoutSteps.java:18)
-	at ✽.the user selects a product "Sauce Labs Backpack"(file:///Users/devo/TestNG%20Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/src/test/java/features/shopping-cart.feature:24)
-
   And adds the product to the cart                        # stepdefinitions.CheckoutSteps.addsProductToCart()
   And the user opens the cart                             # stepdefinitions.ShoppingCartSteps.userOpensCart()
   And the user removes the product "Sauce Labs Backpack"  # stepdefinitions.ShoppingCartSteps.userRemovesProduct(java.lang.String)
   Then the cart should be empty                           # stepdefinitions.ShoppingCartSteps.cartShouldBeEmpty()
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 11:46:47 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:46:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 20, 2025 12:05:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:46:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Mar 20, 2025 11:47:02 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
-WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
-Mar 20, 2025 11:47:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 11:47:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 20, 2025 12:05:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
