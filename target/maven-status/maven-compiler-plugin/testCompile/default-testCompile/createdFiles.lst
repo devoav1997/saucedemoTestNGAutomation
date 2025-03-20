@@ -1,5 +1,5 @@
-runners/TestRunner.class
 stepdefinitions/ProductCatalogSteps.class
+runners/TestRunner.class
 stepdefinitions/CheckoutSteps.class
 stepdefinitions/LoginSteps.class
 stepdefinitions/ShoppingCartSteps.class
