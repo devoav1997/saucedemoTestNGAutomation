@@ -30,5 +30,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Run Tests with Maven in Headless Mode
-        run: mvn -X test -Dselenium.browser=headless
+      - name: Install Chrome Browser
+        run: |
+          sudo apt update
+          sudo apt install -y google-chrome-stable
+        # Removed specific version pinning
+
+      - name: Run Tests with Maven
+        run: mvn -X test
