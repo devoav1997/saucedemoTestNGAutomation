@@ -33,7 +33,7 @@ jobs:
       - name: Install Chrome Browser
         run: |
           sudo apt update
-          sudo apt install -y google-chrome-stable=113.0.5672.126-1
+          sudo apt install -y google-chrome-stable=112.0.5615.49-1
         # Pinning to a specific version of Chrome
 
       - name: Setup ChromeDriver
