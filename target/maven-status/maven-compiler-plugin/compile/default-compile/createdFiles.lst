@@ -1,6 +1,0 @@
-pages/CartPage.class
-pages/CheckoutPage.class
-utils/WebDriverSetup.class
-pages/LoginPage.class
-pages/HomePage.class
-com/saucedemo/App.class

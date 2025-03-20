@@ -1,40 +1,31 @@
 name: TestNG CI
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Setup Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
 
-      - name: Cache Maven Dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.m2
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
+    - name: Download WebDriver
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget unzip
+        wget -q https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip -d /usr/local/bin/
+        rm chromedriver_linux64.zip
+        sudo chmod +x /usr/local/bin/chromedriver
 
-      - name: Install Chrome Browser
-        run: |
-          sudo apt update
-          sudo apt install -y google-chrome-stable
-        # Removed specific version pinning
-
-      - name: Run Tests with Maven
-        run: mvn -X test
+    - name: Run tests
+      run: |
+        mvn test -Dwebdriver.chrome.driver=/usr/local/bin/chromedriver
+      env:
+        DISPLAY: :99.0
