@@ -1,5 +1,4 @@
 name: TestNG CI
-
 on:
   push:
     branches:
@@ -7,21 +6,17 @@ on:
   pull_request:
     branches:
       - main
-
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
-
       - name: Cache Maven Dependencies
         uses: actions/cache@v3
         with:
@@ -29,12 +24,9 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
-
       - name: Install Chrome Browser
         run: |
           sudo apt update
           sudo apt install -y google-chrome-stable
-        # Removed specific version pinning
-
       - name: Run Tests with Maven
-        run: mvn -X test
+        run: mvn -Dsurefire.useFile=false test
