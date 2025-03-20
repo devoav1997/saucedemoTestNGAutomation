@@ -39,7 +39,10 @@ jobs:
         run: |
           CHROME_VERSION=$(google-chrome --version | awk '{print $3}')
           echo "Chrome version: $CHROME_VERSION"
-          DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION" || echo "latest")
+          DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+          if [ -z "$DRIVER_VERSION" ]; then
+            DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE")
+          fi
           echo "ChromeDriver version: $DRIVER_VERSION"
           wget -q "https://chromedriver.storage.googleapis.com/$DRIVER_VERSION/chromedriver_linux64.zip"
           unzip chromedriver_linux64.zip
