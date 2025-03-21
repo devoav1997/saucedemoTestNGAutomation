@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="175.316" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="60.46" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="/Users/devo/.cache/selenium/chromedriver/mac-arm64/134.0.6998.90/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/test-classes:/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/classes:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.1/selenium-java-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.1/selenium-api-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.1/selenium-chrome-driver-4.12.1.jar:/Users/devo/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/devo/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/devo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/devo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/devo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/devo/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/devo/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/devo/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.1/selenium-chromium-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.1/selenium-json-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.1/selenium-manager-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.1/selenium-devtools-v114-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.1/selenium-devtools-v115-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.1/selenium-devtools-v116-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.1/selenium-devtools-v85-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.1/selenium-edge-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.1/selenium-firefox-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.1/selenium-http-4.12.1.jar:/Users/devo/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.1/selenium-ie-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.1/selenium-remote-driver-4.12.1.jar:/Users/devo/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/devo/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/devo/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/devo/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/devo/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/devo/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.1/selenium-os-4.12.1.jar:/Users/devo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.1/selenium-safari-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.1/selenium-support-4.12.1.jar:/Users/devo/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/devo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/devo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/devo/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/devo/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/devo/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/devo/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/devo/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/devo/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/devo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/devo/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/devo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/devo/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/devo/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/devo/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/devo/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/devo/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/devo/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/devo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
@@ -14,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250320120226935_3.jar /Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire 2025-03-20T12-02-26_876-jvmRun1 surefire-20250320120226935_1tmp surefire_0-20250320120226935_2tmp"/>
+    <property name="sun.java.command" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250321091531349_3.jar /Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire 2025-03-21T09-15-31_292-jvmRun1 surefire-20250321091531349_1tmp surefire_0-20250321091531349_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/test-classes:/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/classes:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-java/4.12.1/selenium-java-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-api/4.12.1/selenium-api-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.12.1/selenium-chrome-driver-4.12.1.jar:/Users/devo/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/devo/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/devo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/devo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/devo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/devo/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/devo/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/devo/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.12.1/selenium-chromium-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-json/4.12.1/selenium-json-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.12.1/selenium-manager-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.12.1/selenium-devtools-v114-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.12.1/selenium-devtools-v115-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v116/4.12.1/selenium-devtools-v116-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.12.1/selenium-devtools-v85-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.12.1/selenium-edge-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.12.1/selenium-firefox-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-http/4.12.1/selenium-http-4.12.1.jar:/Users/devo/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.12.1/selenium-ie-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.12.1/selenium-remote-driver-4.12.1.jar:/Users/devo/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/devo/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/devo/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/devo/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/devo/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/devo/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/devo/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/devo/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/devo/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/devo/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-os/4.12.1/selenium-os-4.12.1.jar:/Users/devo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.12.1/selenium-safari-driver-4.12.1.jar:/Users/devo/.m2/repository/org/seleniumhq/selenium/selenium-support/4.12.1/selenium-support-4.12.1.jar:/Users/devo/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/devo/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/devo/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/devo/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/devo/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/devo/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/devo/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/devo/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/devo/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/devo/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/devo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/devo/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/devo/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/devo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/devo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/devo/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/devo/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/devo/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/devo/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/devo/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/devo/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/devo/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/devo/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/devo/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/devo/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:"/>
@@ -30,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250320120226935_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/devo/TestNG Project/saucedemo-automation/saucedemo-automation/saucedemo-automation/target/surefire/surefirebooter-20250321091531349_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.7+7"/>
@@ -57,7 +56,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;User selects a product and completes the checkout process&quot;, &quot;Checkout functionality on SauceDemo&quot;](1)" classname="runners.TestRunner" time="11.117">
+  <testcase name="runScenario[&quot;User selects a product and completes the checkout process&quot;, &quot;Checkout functionality on SauceDemo&quot;](1)" classname="runners.TestRunner" time="4.888">
     <system-out><![CDATA[
 Scenario: User selects a product and completes the checkout process           # src/test/java/features/checkout.feature:3
   Given the user is on the login page                                         # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -73,13 +72,15 @@ Scenario: User selects a product and completes the checkout process           # 
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 20, 2025 12:02:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 21, 2025 9:15:33 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:15:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:02:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:15:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to checkout with empty first name&quot;, &quot;Checkout functionality on SauceDemo&quot;](2)" classname="runners.TestRunner" time="10.83">
+  <testcase name="runScenario[&quot;User fails to checkout with empty first name&quot;, &quot;Checkout functionality on SauceDemo&quot;](2)" classname="runners.TestRunner" time="4.641">
     <system-out><![CDATA[
 Scenario: User fails to checkout with empty first name                      # src/test/java/features/checkout.feature:15
   Given the user is on the login page                                       # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -92,13 +93,15 @@ Scenario: User fails to checkout with empty first name                      # sr
   And clicks the continue button                                            # stepdefinitions.CheckoutSteps.clicksContinueButton()
   Then an error message "Error: First Name is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:02:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:15:37 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:15:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:02:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:15:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to checkout with empty last name&quot;, &quot;Checkout functionality on SauceDemo&quot;](3)" classname="runners.TestRunner" time="10.772">
+  <testcase name="runScenario[&quot;User fails to checkout with empty last name&quot;, &quot;Checkout functionality on SauceDemo&quot;](3)" classname="runners.TestRunner" time="4.788">
     <system-out><![CDATA[
 Scenario: User fails to checkout with empty last name                      # src/test/java/features/checkout.feature:26
   Given the user is on the login page                                      # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -111,13 +114,15 @@ Scenario: User fails to checkout with empty last name                      # src
   And clicks the continue button                                           # stepdefinitions.CheckoutSteps.clicksContinueButton()
   Then an error message "Error: Last Name is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:02:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:15:41 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:15:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:02:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:15:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to checkout with empty postal code&quot;, &quot;Checkout functionality on SauceDemo&quot;](4)" classname="runners.TestRunner" time="10.634">
+  <testcase name="runScenario[&quot;User fails to checkout with empty postal code&quot;, &quot;Checkout functionality on SauceDemo&quot;](4)" classname="runners.TestRunner" time="4.579">
     <system-out><![CDATA[
 Scenario: User fails to checkout with empty postal code                      # src/test/java/features/checkout.feature:37
   Given the user is on the login page                                        # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -130,13 +135,15 @@ Scenario: User fails to checkout with empty postal code                      # s
   And clicks the continue button                                             # stepdefinitions.CheckoutSteps.clicksContinueButton()
   Then an error message "Error: Postal Code is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:03:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:15:46 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:15:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:03:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:15:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User successfully logs in with valid credentials&quot;, &quot;Login functionality on SauceDemo&quot;](5)" classname="runners.TestRunner" time="7.082">
+  <testcase name="runScenario[&quot;User successfully logs in with valid credentials&quot;, &quot;Login functionality on SauceDemo&quot;](5)" classname="runners.TestRunner" time="6.217">
     <system-out><![CDATA[
 Scenario: User successfully logs in with valid credentials # src/test/java/features/login.feature:3
   Given the user is on the login page                      # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -146,13 +153,15 @@ Menunggu sebelum menutup browser...
 Menutup browser!
   Then the inventory page should be displayed              # stepdefinitions.LoginSteps.inventoryPageDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:03:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:15:51 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:15:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:03:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:15:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with incorrect username&quot;, &quot;Login functionality on SauceDemo&quot;](6)" classname="runners.TestRunner" time="8.493">
+  <testcase name="runScenario[&quot;User fails to log in with incorrect username&quot;, &quot;Login functionality on SauceDemo&quot;](6)" classname="runners.TestRunner" time="3.286">
     <system-out><![CDATA[
 Scenario: User fails to log in with incorrect username                                                                  # src/test/java/features/login.feature:9
   Given the user is on the login page                                                                                   # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -161,7 +170,7 @@ Scenario: User fails to log in with incorrect username                          
   Then an error message "Epic sadface: Username and password do not match any user in this service" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with incorrect password&quot;, &quot;Login functionality on SauceDemo&quot;](7)" classname="runners.TestRunner" time="10.239">
+  <testcase name="runScenario[&quot;User fails to log in with incorrect password&quot;, &quot;Login functionality on SauceDemo&quot;](7)" classname="runners.TestRunner" time="4.257">
     <system-out><![CDATA[
 Scenario: User fails to log in with incorrect password                                                                  # src/test/java/features/login.feature:15
   Given the user is on the login page                                                                                   # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -169,13 +178,15 @@ Scenario: User fails to log in with incorrect password                          
   And clicks the login button                                                                                           # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username and password do not match any user in this service" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:03:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:00 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:03:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with empty credentials&quot;, &quot;Login functionality on SauceDemo&quot;](8)" classname="runners.TestRunner" time="10.037">
+  <testcase name="runScenario[&quot;User fails to log in with empty credentials&quot;, &quot;Login functionality on SauceDemo&quot;](8)" classname="runners.TestRunner" time="4.103">
     <system-out><![CDATA[
 Scenario: User fails to log in with empty credentials                            # src/test/java/features/login.feature:21
   Given the user is on the login page                                            # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -183,13 +194,15 @@ Scenario: User fails to log in with empty credentials                           
   And clicks the login button                                                    # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:03:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:04 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:03:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with empty password&quot;, &quot;Login functionality on SauceDemo&quot;](9)" classname="runners.TestRunner" time="9.937">
+  <testcase name="runScenario[&quot;User fails to log in with empty password&quot;, &quot;Login functionality on SauceDemo&quot;](9)" classname="runners.TestRunner" time="4.391">
     <system-out><![CDATA[
 Scenario: User fails to log in with empty password                               # src/test/java/features/login.feature:27
   Given the user is on the login page                                            # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -197,13 +210,15 @@ Scenario: User fails to log in with empty password                              
   And clicks the login button                                                    # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Password is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:03:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:08 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:03:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User fails to log in with empty username&quot;, &quot;Login functionality on SauceDemo&quot;](10)" classname="runners.TestRunner" time="10.153">
+  <testcase name="runScenario[&quot;User fails to log in with empty username&quot;, &quot;Login functionality on SauceDemo&quot;](10)" classname="runners.TestRunner" time="4.231">
     <system-out><![CDATA[
 Scenario: User fails to log in with empty username                               # src/test/java/features/login.feature:33
   Given the user is on the login page                                            # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -211,13 +226,15 @@ Scenario: User fails to log in with empty username                              
   And clicks the login button                                                    # stepdefinitions.LoginSteps.userClicksLoginButton()
   Then an error message "Epic sadface: Username is required" should be displayed # stepdefinitions.LoginSteps.errorMessageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:03:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:13 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:03:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User views product catalog&quot;, &quot;Product catalog browsing on SauceDemo&quot;](11)" classname="runners.TestRunner" time="12.168">
+  <testcase name="runScenario[&quot;User views product catalog&quot;, &quot;Product catalog browsing on SauceDemo&quot;](11)" classname="runners.TestRunner" time="6.375">
     <system-out><![CDATA[
 Scenario: User views product catalog                      # src/test/java/features/product-catalog.feature:3
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -229,13 +246,15 @@ Menutup browser!
 Product catalog is displayed with 6 items.
   And the user should see the product catalog             # stepdefinitions.ProductCatalogSteps.productCatalogShouldBeDisplayed()
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:04:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:17 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:04:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User filters products by Name (A to Z)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](12)" classname="runners.TestRunner" time="17.189">
+  <testcase name="runScenario[&quot;User filters products by Name (A to Z)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](12)" classname="runners.TestRunner" time="1.494">
     <system-out><![CDATA[
 Scenario: User filters products by Name (A to Z)          # src/test/java/features/product-catalog.feature:10
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -244,13 +263,15 @@ Scenario: User filters products by Name (A to Z)          # src/test/java/featur
   And the user selects filter option "Name (A to Z)"      # stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(java.lang.String)
   Then the products should be sorted by "Name (A to Z)"   # stepdefinitions.ProductCatalogSteps.productsShouldBeSorted(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:04:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:23 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:04:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User filters products by Price (low to high)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](13)" classname="runners.TestRunner" time="7.157">
+  <testcase name="runScenario[&quot;User filters products by Price (low to high)&quot;, &quot;Product catalog browsing on SauceDemo&quot;](13)" classname="runners.TestRunner" time="1.358">
     <system-out><![CDATA[
 Scenario: User filters products by Price (low to high)        # src/test/java/features/product-catalog.feature:17
   Given the user is on the login page                         # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -259,13 +280,15 @@ Scenario: User filters products by Price (low to high)        # src/test/java/fe
   And the user selects filter option "Price (low to high)"    # stepdefinitions.ProductCatalogSteps.userSelectsFilterOption(java.lang.String)
   Then the products should be sorted by "Price (low to high)" # stepdefinitions.ProductCatalogSteps.productsShouldBeSorted(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:04:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:25 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:04:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User views product details&quot;, &quot;Product catalog browsing on SauceDemo&quot;](14)" classname="runners.TestRunner" time="7.215">
+  <testcase name="runScenario[&quot;User views product details&quot;, &quot;Product catalog browsing on SauceDemo&quot;](14)" classname="runners.TestRunner" time="1.302">
     <system-out><![CDATA[
 Scenario: User views product details                                                       # src/test/java/features/product-catalog.feature:24
   Given the user is on the login page                                                      # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -274,13 +297,15 @@ Scenario: User views product details                                            
   And the user clicks on product "Sauce Labs Backpack"                                     # stepdefinitions.ProductCatalogSteps.userClicksOnProduct(java.lang.String)
   Then the product detail page should be displayed with product name "Sauce Labs Backpack" # stepdefinitions.ProductCatalogSteps.productDetailPageShouldBeDisplayed(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:04:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:26 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:04:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User adds a product to the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](15)" classname="runners.TestRunner" time="7.15">
+  <testcase name="runScenario[&quot;User adds a product to the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](15)" classname="runners.TestRunner" time="1.295">
     <system-out><![CDATA[
 Scenario: User adds a product to the cart                 # src/test/java/features/shopping-cart.feature:3
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -290,13 +315,15 @@ Scenario: User adds a product to the cart                 # src/test/java/featur
   And adds the product to the cart                        # stepdefinitions.CheckoutSteps.addsProductToCart()
   Then the cart icon should show "1"                      # stepdefinitions.ShoppingCartSteps.cartIconShouldShow(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:04:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:28 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:04:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User views the shopping cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](16)" classname="runners.TestRunner" time="7.149">
+  <testcase name="runScenario[&quot;User views the shopping cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](16)" classname="runners.TestRunner" time="1.374">
     <system-out><![CDATA[
 Scenario: User views the shopping cart                    # src/test/java/features/shopping-cart.feature:11
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -307,13 +334,15 @@ Scenario: User views the shopping cart                    # src/test/java/featur
   And the user opens the cart                             # stepdefinitions.ShoppingCartSteps.userOpensCart()
   Then the cart should contain "Sauce Labs Backpack"      # stepdefinitions.ShoppingCartSteps.cartShouldContain(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:04:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:29 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:04:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User removes a product from the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](17)" classname="runners.TestRunner" time="17.213">
+  <testcase name="runScenario[&quot;User removes a product from the cart&quot;, &quot;Shopping cart operations on SauceDemo&quot;](17)" classname="runners.TestRunner" time="1.359">
     <system-out><![CDATA[
 Scenario: User removes a product from the cart            # src/test/java/features/shopping-cart.feature:20
   Given the user is on the login page                     # stepdefinitions.LoginSteps.userIsOnLoginPage()
@@ -325,9 +354,11 @@ Scenario: User removes a product from the cart            # src/test/java/featur
   And the user removes the product "Sauce Labs Backpack"  # stepdefinitions.ShoppingCartSteps.userRemovesProduct(java.lang.String)
   Then the cart should be empty                           # stepdefinitions.ShoppingCartSteps.cartShouldBeEmpty()
 ]]></system-out>
-    <system-err><![CDATA[Mar 20, 2025 12:05:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 21, 2025 9:16:30 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (133.0.6943.126) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (134.0.6998.118); currently, chromedriver 134.0.6998.90 is recommended for chrome 134.*, so it is advised to delete the driver in PATH and retry
+Mar 21, 2025 9:16:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 134
-Mar 20, 2025 12:05:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Mar 21, 2025 9:16:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 134.0.6998.118. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

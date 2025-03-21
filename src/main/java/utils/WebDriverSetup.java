@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class WebDriverSetup {
-    private static WebDriver driver;
+    // private static WebDriver driver;
 
     // public static WebDriver getDriver() {
     //     if (driver == null) {
@@ -25,26 +25,47 @@ public class WebDriverSetup {
     //     return driver;
     // }
 
+//     public static WebDriver getDriver() {
+//     if (driver == null) {
+//         WebDriverManager.chromedriver().setup();
+//         driver = new ChromeDriver();
+//         driver.manage().window().maximize();
+//         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//     }
+//     return driver;
+// }
+
+
+//     public static void closeDriver() {
+//         if (driver != null) {
+//             try {
+//                 Thread.sleep(5000); // Delay sebelum menutup browser
+//             } catch (InterruptedException e) {
+//                 e.printStackTrace();
+//             }
+//             driver.quit();
+//             driver = null;
+//         }
+//     }
+
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
     public static WebDriver getDriver() {
-    if (driver == null) {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        if (driver.get() == null) {
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
+            driver.set(new ChromeDriver(options));
+        }
+        return driver.get();
     }
-    return driver;
-}
 
-
-    public static void closeDriver() {
-        if (driver != null) {
-            try {
-                Thread.sleep(5000); // Delay sebelum menutup browser
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            driver.quit();
-            driver = null;
+    public static void closeDriver()  {
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
         }
     }
+
+
+
 }
