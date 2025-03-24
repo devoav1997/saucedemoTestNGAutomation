@@ -39,10 +39,16 @@ jobs:
       # 🔹 Kirim hasil test ke Qase.io
       - name: Report Test Results to Qase
         run: |
-          TEST_STATUS=$(grep -q "<failure" target/surefire-reports/*.xml && echo "failed" || echo "passed")
-          RUN_ID="2"  # Ganti dengan run_id dari Qase API
-          curl -X POST "https://api.qase.io/v1/result/SD/$RUN_ID" \
-            -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
-            -H "Content-Type: application/json" \
-            -d "{\"status\": $TEST_STATUS, \"comment\": \"Automated test run from GitHub Actions\"}"
+          if grep -q "<failure" target/surefire-reports/*.xml; then
+            TEST_STATUS="failed"
+          else
+            TEST_STATUS="passed"
+          fi
+          echo "Test Status: $TEST_STATUS"
+        
+          curl -X POST "https://api.qase.io/v1/result/SD/2" \
+             -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
+             -H "Content-Type: application/json" \
+             -d "$(jq -n --arg status "$TEST_STATUS" --argjson case_id 1 '{case_id: $case_id, status: $status}')"
+    
 
