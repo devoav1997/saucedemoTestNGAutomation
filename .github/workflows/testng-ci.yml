@@ -38,7 +38,7 @@ jobs:
 
       - name: Report Test Results to Qase
         run: |
-            RUN_ID="2" # Ganti dengan Run ID yang sesuai
+            RUN_ID="3" # Ganti dengan Run ID yang sesuai
         
             if grep -q "<failure" target/surefire-reports/*.xml; then
               TEST_STATUS="failed"
