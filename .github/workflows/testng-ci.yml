@@ -36,8 +36,8 @@ jobs:
           path: target/surefire-reports/
 
 
-          - name: Report Test Results to Qase
-          run: |
+      - name: Report Test Results to Qase
+        run: |
             # Cek apakah ada kegagalan di laporan hasil test
             if grep -q "<failure" target/surefire-reports/*.xml; then
               TEST_STATUS="failed"
