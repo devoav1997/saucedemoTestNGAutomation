@@ -1,7 +1,0 @@
-<suite name="SauceDemo Test Suite">
-    <test name="SauceDemo Login Test">
-        <classes>
-            <class name="runners.TestRunner"/>
-        </classes>
-    </test>
-</suite>
