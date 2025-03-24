@@ -1,4 +1,5 @@
 name: TestNG CI
+
 on:
   push:
     branches:
@@ -6,44 +7,41 @@ on:
   pull_request:
     branches:
       - main
+
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
+      # 🔹 Checkout kode repository
       - name: Checkout Repository
         uses: actions/checkout@v3
+
+      # 🔹 Install Java dan Maven
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '17'
-      - name: Cache Maven Dependencies
-        uses: actions/cache@v3
+          java-version: '11'
+
+      # 🔹 Build dan Jalankan TestNG
+      - name: Build & Run Tests
+        run: mvn clean test
+
+      # 🔹 Upload hasil test sebagai artifact
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v3
         with:
-          path: ~/.m2
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
-      - name: Install Chrome Browser
+          name: test-reports
+          path: target/surefire-reports/
+
+      # 🔹 Kirim hasil test ke Qase.io
+      - name: Report Test Results to Qase
         run: |
-          sudo apt update
-          sudo apt install -y google-chrome-stable
-      - name: Install Maven Dependencies
-        run: mvn clean install
-  
-      - name: Run Tests with Maven
-        run: mvn test -Dsurefire.useFile=false
-  
-      - name: Generate Qase JSON Results
-        run: mvn surefire-report:report
-  
-      - name: Create Test Run in Qase
-        run: |
-          curl -X POST "https://api.qase.io/v1/run/SD" \
-          -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
-          -H "Content-Type: application/json" \
-          -d '{
-            "title": "Test Sauce DEMO",
-            "description": "Test Sauce DEMO",
-            "include_all_cases": true
-          }'
+          TEST_STATUS=$(grep -c "<failure" target/surefire-reports/*.xml > /dev/null && echo 5 || echo 1)
+          RUN_ID="12345"  # Ganti dengan run_id dari Qase API
+          curl -X POST "https://api.qase.io/v1/result/SD/$RUN_ID" \
+            -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"status\": $TEST_STATUS, \"comment\": \"Automated test run from GitHub Actions\"}"
+
