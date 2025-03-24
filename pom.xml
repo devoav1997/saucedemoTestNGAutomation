@@ -49,20 +49,6 @@
         <version>3.2.1</version> <!-- Sesuaikan dengan versi terbaru -->
     </dependency>
 
-
-
-
 </dependencies>
-<build>
-    <plugins>
-        <plugin>
-            <groupId>io.qase</groupId>
-            <artifactId>qase-tms-reporter</artifactId>
-            <version>2.1.2</version>
-        </plugin>
-    </plugins>
-</build>
-
-
 
 </project>
