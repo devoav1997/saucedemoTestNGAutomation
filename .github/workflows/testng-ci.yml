@@ -30,3 +30,8 @@ jobs:
           sudo apt install -y google-chrome-stable
       - name: Run Tests with Maven
         run: mvn -Dsurefire.useFile=false test
+
+      - name: Run Tests with QASE Integration
+        run: mvn test -Dqase.project=SD -Dqase.run.complete=true
+        env:
+          QASE_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}

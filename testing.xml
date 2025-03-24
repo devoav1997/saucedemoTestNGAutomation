@@ -1,0 +1,10 @@
+<suite name="QASE Integration Suite">
+    <listeners>
+        <listener class-name="io.qase.testng.listeners.QaseListener"/>
+    </listeners>
+    <test name="Example Test">
+        <classes>
+            <class name="tests.ExampleTest"/>
+        </classes>
+    </test>
+</suite>

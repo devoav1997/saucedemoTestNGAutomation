@@ -11,12 +11,25 @@ import pages.HomePage;
 import pages.LoginPage;
 import utils.WebDriverSetup;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.qase.api.annotation.QaseId;
 
 public class LoginSteps {
 
     WebDriver driver = WebDriverSetup.getDriver();
     LoginPage loginPage = new LoginPage(driver);
     HomePage homePage = new HomePage(driver);
+
+    @Test // Anotasi TestNG
+    @QaseId(1) // QaseId hanya pada level test utama
+    public void loginTest() throws InterruptedException {
+        userIsOnLoginPage();
+        userEntersCredentials("standard_user", "secret_sauce");
+        userClicksLoginButton();
+        inventoryPageDisplayed();
+    }
+
 
     @Given("the user is on the login page")
     public void userIsOnLoginPage() {
