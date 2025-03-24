@@ -36,19 +36,32 @@ jobs:
           path: target/surefire-reports/
 
 
-      # 🔹 Kirim hasil test ke Qase.io
-      - name: Report Test Results to Qase
-        run: |
-          if grep -q "<failure" target/surefire-reports/*.xml; then
-            TEST_STATUS="failed"
-          else
-            TEST_STATUS="passed"
-          fi
-          echo "Test Status: $TEST_STATUS"
+          - name: Report Test Results to Qase
+          run: |
+            # Cek apakah ada kegagalan di laporan hasil test
+            if grep -q "<failure" target/surefire-reports/*.xml; then
+              TEST_STATUS="failed"
+            else
+              TEST_STATUS="passed"
+            fi
+            echo "Test Status: $TEST_STATUS"
         
-          curl -X POST "https://api.qase.io/v1/result/SD/2" \
-             -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
-             -H "Content-Type: application/json" \
-             -d "$(jq -n --arg status "$TEST_STATUS" --argjson case_id 1 '{case_id: $case_id, status: $status}')"
-    
-
+            # Jika TEST_STATUS failed, tetap kirim semua step sebagai failed
+            if [ "$TEST_STATUS" == "failed" ]; then
+              STEP_STATUS="failed"
+            else
+              STEP_STATUS="passed"
+            fi
+        
+            # Kirim hasil test ke Qase.io
+            curl -X POST "https://api.qase.io/v1/result/SD/2" \
+               -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
+               -H "Content-Type: application/json" \
+               -d "$(jq -n --arg status "$TEST_STATUS" --argjson case_id 1 --arg step_status "$STEP_STATUS" --argjson steps '[
+                     {"position": 1, "status": $step_status},
+                     {"position": 2, "status": $step_status},
+                     {"position": 3, "status": $step_status},
+                     {"position": 4, "status": $step_status}
+                   ]' 
+                   '{case_id: $case_id, status: $status, steps: $steps}')"
+        
