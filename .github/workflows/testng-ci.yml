@@ -31,9 +31,7 @@ jobs:
       - name: Run Tests with Maven
         run: mvn -Dsurefire.useFile=false test
 
-      - name: Upload Results to QASE
-        run: |
-         curl -X POST "https://api.qase.io/v1/result/bulk" \
-          -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
-          -H "Content-Type: application/json" \
-          -d @qase-results.json
+      - name: Run Tests with QASE Integration
+        run: mvn test -Dqase.project=SD -Dqase.run.complete=true
+        env:
+          QASE_API_TOKEN: ${{ secrets.QASE_API_TOKEN }}
