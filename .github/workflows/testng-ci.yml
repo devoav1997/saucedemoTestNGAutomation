@@ -38,41 +38,35 @@ jobs:
 
       - name: Report Test Results to Qase
         run: |
-              # Cek apakah ada kegagalan di laporan hasil test
-              if grep -q "<failure" target/surefire-reports/*.xml; then
-                TEST_STATUS="failed"
-              else
-                TEST_STATUS="passed"
-              fi
-              echo "Test Status: $TEST_STATUS"
+            RUN_ID="2" # Ganti dengan Run ID yang sesuai
         
-              # Jika TEST_STATUS failed, semua step juga failed
-              if [ "$TEST_STATUS" == "failed" ]; then
-                STEP_STATUS="failed"
-              else
-                STEP_STATUS="passed"
-              fi
+            if grep -q "<failure" target/surefire-reports/*.xml; then
+              TEST_STATUS="failed"
+            else
+              TEST_STATUS="passed"
+            fi
         
-              # Loop untuk semua test case ID dari 1 hingga 6
-              for CASE_ID in {1..6}; do
-                JSON_PAYLOAD=$(jq -n --arg case_id "$CASE_ID" --arg status "$TEST_STATUS" --arg step_status "$STEP_STATUS" \
-                '{
-                  case_id: ($case_id | tonumber),
-                  status: $status,
-                  steps: [
-                    {position: 1, status: $step_status},
-                    {position: 2, status: $step_status},
-                    {position: 3, status: $step_status},
-                    {position: 4, status: $step_status}
-                  ]
-                }')
+            STEP_STATUS=$TEST_STATUS
         
-                echo "Sending result for case_id: $CASE_ID"
-                echo "JSON Payload: $JSON_PAYLOAD" # Debugging
+            for CASE_ID in {1..6}; do
+              JSON_PAYLOAD=$(jq -n --arg case_id "$CASE_ID" --arg status "$TEST_STATUS" --arg step_status "$STEP_STATUS" \
+              '{
+                case_id: ($case_id | tonumber),
+                status: $status,
+                steps: [
+                  {position: 1, status: $step_status},
+                  {position: 2, status: $step_status},
+                  {position: 3, status: $step_status},
+                  {position: 4, status: $step_status}
+                ]
+              }')
         
-                curl -X POST "https://api.qase.io/v1/result/SD/$CASE_ID" \
-                   -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
-                   -H "Content-Type: application/json" \
-                   -d "$JSON_PAYLOAD"
-              done
+              echo "Sending result for case_id: $CASE_ID in run_id: $RUN_ID"
+              echo "JSON Payload: $JSON_PAYLOAD"
+        
+              curl -X POST "https://api.qase.io/v1/result/$RUN_ID/$CASE_ID" \
+                 -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
+                 -H "Content-Type: application/json" \
+                 -d "$JSON_PAYLOAD"
+            done
         
