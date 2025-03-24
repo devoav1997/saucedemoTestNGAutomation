@@ -46,7 +46,7 @@ jobs:
             fi
             echo "Test Status: $TEST_STATUS"
         
-            # Jika TEST_STATUS failed, tetap kirim semua step sebagai failed
+            # Jika TEST_STATUS failed, semua step juga failed
             if [ "$TEST_STATUS" == "failed" ]; then
               STEP_STATUS="failed"
             else
@@ -54,14 +54,22 @@ jobs:
             fi
         
             # Kirim hasil test ke Qase.io
+            JSON_PAYLOAD=$(jq -n --arg case_id "1" --arg status "$TEST_STATUS" --arg step_status "$STEP_STATUS" \
+            '{
+              case_id: ($case_id | tonumber),
+              status: $status,
+              steps: [
+                {position: 1, status: $step_status},
+                {position: 2, status: $step_status},
+                {position: 3, status: $step_status},
+                {position: 4, status: $step_status}
+              ]
+            }')
+        
+            echo "JSON Payload: $JSON_PAYLOAD" # Debugging
+        
             curl -X POST "https://api.qase.io/v1/result/SD/2" \
                -H "Token: ${{ secrets.QASE_API_TOKEN }}" \
                -H "Content-Type: application/json" \
-               -d "$(jq -n --arg status "$TEST_STATUS" --argjson case_id 1 --arg step_status "$STEP_STATUS" --argjson steps '[
-                     {"position": 1, "status": $step_status},
-                     {"position": 2, "status": $step_status},
-                     {"position": 3, "status": $step_status},
-                     {"position": 4, "status": $step_status}
-                   ]' 
-                   '{case_id: $case_id, status: $status, steps: $steps}')"
+               -d "$JSON_PAYLOAD"
         
